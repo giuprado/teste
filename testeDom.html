@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Página de teste</title>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+      <div align="center" id="cont">
+            <input type="button" id="btn1" value="Executar" onclick="executar()">
+
+            <p id="par">Teste de propriedade</p>
+
+            <img id="img1" src="">
+
+            <p>
+                <table id="tab" class="table" onmouseover="trocar()" onmouseout="voltar()">
+                    <tr class="impar">
+                        <th>Titulo 1</th>
+                        <th>Titulo 2</th>
+                    </tr>
+                    <tr class="par">
+                        <td>Linha 1</td>
+                        <td>Linha 2</td>
+                    </tr>
+                    <tr class="impar">
+                        <td>Linha 3</td>
+                        <td>Linha 4</td>
+                    </tr>
+                </table>   
+            </p>
+            <p>
+                <ul id="lista" align="left">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+            </p>
+            <button type="button" id="btn2">Trocar estilo</button>  
+            <button type="button" id="btn3" onclick="voltar()">Voltar estilo</button>                      
+            <p><button type="button" id="btn4" onclick="manipular()">Manipular</button>
+        </div>
+        <script language="Javascript" src="js/meuscript.js"></script>         
+</body>
+</html>

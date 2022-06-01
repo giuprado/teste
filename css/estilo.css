@@ -1,0 +1,32 @@
+.table{
+	text-align: center;
+	width: 50%;	
+	border-collapse: collapse;
+	margin: auto;
+	min-width: 300px;
+	margin-top: 50px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.impar{
+	background-color: rgb(240,248,255);
+}
+.nome{
+	text-align: left;
+}
+
+.table2{
+	text-align: center;
+	font-family : "Times New Roman", Times, serif;
+	width: 20%;
+	font-size: 12px;	
+	background-color: rgb(240,248,255);
+}
+
+.table2 th, .table2 td{
+	border: 1px solid black;
+	padding: 5px;
+}
+.table2 th:hover, .table2 tr:hover{
+	background-color: rgb(168, 218, 213);
+}
